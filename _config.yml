@@ -14,6 +14,9 @@ latex:
   latex_documents:
     targetname: book.tex
 
+extensions:
+  - sphinxcontrib.bibtex
+
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
   - references.bib
